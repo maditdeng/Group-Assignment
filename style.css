@@ -21,9 +21,9 @@ body{
     text-align: center;
     padding: 10px;
 }
-.content-table colspan{
+/* .content-table colspan{
     text-align: center;
-}
+} */
 .main{
     padding-left: 160px;
     padding-right: 160px;
@@ -72,7 +72,7 @@ p{
 }
 ul h1{
     float: right;
-    color: white;
+    color: #009879;
     padding-top: 10px;
     padding-right: 40px;
 }
