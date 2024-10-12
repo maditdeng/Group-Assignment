@@ -14,6 +14,10 @@ body{
  
 }
 
+div header{
+    margin-left: 150px;
+}
+
 .header{
     background-color: #4682b4;
     color: white;
