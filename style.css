@@ -7,8 +7,6 @@
    
 }
 body{
-    
-    /* background-image: url(img/back-image.png); */
     background-image: url(img/back-ground-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -16,7 +14,7 @@ body{
     background-color: #f0f0f0;
  
 }
-/*Styling the header.*/
+
 .header{
     background-color: #4682b4;
     color: white;
@@ -29,34 +27,21 @@ body{
     padding-right: 160px;
     line-height: 25px;
 }
-.main h2{
-    padding-top: 15px;
+.main h1{
+    padding-top: 45px;
     padding-bottom: 15px;
     font-weight: bold;
     border-bottom: 1px solid #009879;
 }
-h1, h2{
+h1{
     text-align: center;
+    color: #009879;
 }
+   
 p{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-header h1{
-    /* padding-top: 10px; */
-    /* border: 1px solid black; */
-    height: 50px;
-    width: 160px;
-    margin-left: 160px;
-    margin-top: 25px;
-    text-align: center;
-    background-color: #009879;
-    color: white;
-    border-radius: 10px;
-}
-h1{
-    padding-top: 5px;
-}
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
@@ -83,7 +68,12 @@ h1{
     float: left;
     margin-left: 60px;
 }
-
+ul h1{
+    float: right;
+    color: white;
+    padding-top: 10px;
+    padding-right: 40px;
+}
 .table-container{
     padding-left: 160px;
 }
@@ -127,19 +117,18 @@ div table{
 }
 .image-row{
     padding-left: 150px;
-    padding-bottom: 350px;
+    padding-bottom: 200px;
 }
 .image-div img{
     float: left;
-    width: 35%;
-    padding: 10px;
+    width: 250px;
+    height: 180px;
+    padding: 15px;
+    border-radius: 20px;
 }
 .sign-up{
-    width: 300px;
-    /* box-shadow: 0 0 3px rgba(0,0,0,.3); */
-    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,.3); 
     padding: 15px;
-    margin: 1% auto 0;
     text-align: center;
 }
 .sign-up h1{
@@ -147,18 +136,18 @@ div table{
     margin-bottom: 20px;
 }
 .input-box{
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
     margin: 10px 0;
-    width: 100%;
+    width: 180px;
     border: 1px solid #009879;
     outline: none;
 }
 button{
     color: #009879;
-    width: 100%;
+    width: 300px;
     padding: 10px;
-    border-radius: 20px; 
+    border-radius: 15px; 
     font-size: 15px;
     margin: 10px 0;
     border: none;
