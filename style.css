@@ -21,7 +21,9 @@ body{
     text-align: center;
     padding: 10px;
 }
-
+.content-table colspan{
+    text-align: center;
+}
 .main{
     padding-left: 160px;
     padding-right: 160px;
