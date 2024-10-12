@@ -42,10 +42,6 @@ p{
     padding-top: 20px;
 }
 
-.navbar{
-    margin-left: 150px;
-}
-
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
